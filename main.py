@@ -5,7 +5,7 @@ import random
 ## Characters from which we will generate the password
 characters = list (string.ascii_letters + string.digits + "!@#$%^&*()")
 
-def generate_random_password():
+def random_password():
 
 	## Setting the password lenght by the user
 	length = int(input("Enter password length: "))
@@ -28,4 +28,4 @@ def generate_random_password():
 
 
 ## Finally we call the function
-generate_random_password()
+random_password()
