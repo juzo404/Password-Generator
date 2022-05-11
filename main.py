@@ -8,7 +8,7 @@ characters = list (string.ascii_letters + string.digits + "!@#$%^&*()")
 def random_password():
 
 	## Setting the password lenght by the user
-	length = int(input("Enter password length: "))
+	length = int(input("Enter password length : "))
 
 	## Shuffle characters
 	random.shuffle(characters)
